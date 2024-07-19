@@ -1,0 +1,7 @@
+"variable","index","virus","period","coprimary","hh_size","type","inc_mean","inc_sd","x_A","mean_value","upper_value","lower_value"
+"alpha",20,"cov","All Omicron",FALSE,"1p","All",2.6,1,0.35,"0.41","0.21","0.83"
+"presymp",20,"cov","All Omicron",FALSE,"1p","All",2.6,1,0.35,"0.31","0.24","0.38"
+"p_E",20,"cov","All Omicron",FALSE,"1p","All",2.6,1,0.35,"0.24","0.03","0.55"
+"period_E",20,"cov","All Omicron",FALSE,"1p","All",2.6,1,0.35,"0.64","0.08","1.42"
+"period_P",20,"cov","All Omicron",FALSE,"1p","All",2.6,1,0.35,"1.96","1.18","2.52"
+"mu_inv",20,"cov","All Omicron",FALSE,"1p","All",2.6,1,0.35,"1.68","1.44","1.94"

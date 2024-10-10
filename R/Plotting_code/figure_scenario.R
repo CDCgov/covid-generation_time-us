@@ -301,6 +301,7 @@ figure_scenario <- function(param_seq) {
            aes(x = period, y = value, fill = model)) +
     geom_violin(trim = FALSE, scale = "width", position = position_dodge(width = 0.9), adjust = 2) +
     geom_boxplot(width = 0.2, position = position_dodge(width = 0.9), outlier.shape = NA) +
+    stat_summary(fun = mean, geom = "point", shape = 21, size = 3, fill = "white", position = position_dodge(width = 0.9)) +
     scale_fill_manual(name = "Model",
                       values = c("indep" = "orange3",
                                  "mech"  = "steelblue3"),
@@ -349,6 +350,7 @@ figure_scenario <- function(param_seq) {
            aes(x = period, y = value, fill = model)) +
     geom_violin(trim = FALSE, scale = "width", position = position_dodge(width = 0.9), adjust = 2) +
     geom_boxplot(width = 0.2, position = position_dodge(width = 0.9), outlier.shape = NA) +
+    stat_summary(fun = mean, geom = "point", shape = 21, size = 3, fill = "white", position = position_dodge(width = 0.9)) +
     scale_fill_manual(name = "Model",
                       values = c("indep" = "orange3",
                                  "mech"  = "steelblue3"),
